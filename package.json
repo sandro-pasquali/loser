@@ -1,0 +1,27 @@
+{
+  "name": "loser",
+  "version": "1.0.1",
+  "description": "A Redis LRU cache system",
+  "main": "lib/index.js",
+  "engines": {
+    "node": ">=5.12.0"
+  },
+  "scripts": {
+    "test": "node test"
+  },
+  "keywords": [
+    "redis",
+    "lru",
+    "cache"
+  ],
+  "author": "Sandro Pasquali <spasquali@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.4.1",
+    "lodash": "^4.13.1",
+    "redis-hook": "^1.1.0"
+  },
+  "devDependencies": {
+    "surveyor": "^2.0.1"
+  }
+}

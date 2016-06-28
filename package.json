@@ -1,6 +1,6 @@
 {
   "name": "loser",
-  "version": "1.0.1",
+  "version": "1.0.5",
   "description": "A Redis LRU cache system",
   "main": "lib/index.js",
   "engines": {
